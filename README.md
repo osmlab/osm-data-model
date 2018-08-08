@@ -27,3 +27,9 @@ available](https://media.ccc.de/v/2018-5412-evolution_des_openstreetmap-datenmod
 See also the [wiki pages about
 Areas](https://wiki.openstreetmap.org/wiki/Area/The_Future_of_Areas).
 
+## Tools
+
+To find the best new data model we need statistics. And we need tools to
+convert from one format to another to analyze them. Some tools are available
+from https://github.com/osmcode/osm-data-model-tools.
+

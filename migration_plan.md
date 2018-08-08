@@ -13,8 +13,9 @@ This ensures that we can assess
 whether the benefits are worth the effort early
 and avoid the risk that we have to roll back changes made to the main database.
 
-Please note that there is no force for a change to go the full way.
-The process is designed to be beneficial right from the beginning.
+The process is designed to deliver some benefits to data users early on. Even
+if we never do all the changes, for instance if we can't reach consensus in
+the community, some data users will be able to use the new file formats.
 
 # Steps
 
@@ -33,17 +34,17 @@ Moreover, this allows to estimate non-functional traits like relative file sizes
 Additional crucial performance data is behaviour in the more commonplace tools.
 Currently, renderers, geocoding, and routing are the most frequent applications.
 Thus, there should be reference implementations to ensure
-that the change is an improvment or at least no performance regression to this tools.
+that the change is an improvement or at least no performance regression to these tools.
 
-Be aware that there is politics involved in the selection of the featured tools.
-This is why this step should take its time to give a borad majority the opportunity to catch up.
+As always when humans are involved this is not only about technical issues.
+This is why this step should take its time to give a broad majority the opportunity to catch up.
 On the other hand, this process is desinged
 to keep the old formats available as first-class citizens for years at low or no costs.
 
 ## Let Editing Software Read the Format
 
 The even more important but also more complex software in the OSM ecosystem are the editing tools.
-The data path to get fresh OSM data over a third party channel is not unsual.
+The data path to get fresh OSM data over a third party channel is not unusual.
 An example is the combination of JOSM and Overpass API for download.
 From this perspective, you could feed the editor from OSM data converted on the fly
 to the new format to thouroughly test for bugs and performance regressions.
@@ -69,3 +70,4 @@ The existing API calls should be served through the wrapper if a wrapper is at a
 The tricky part is most likely the conversion of the existing data.
 The good news is that by the very requirement of lossless converters from the first step,
 this is guaranteed to be correctly solvable.
+

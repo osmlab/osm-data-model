@@ -9,6 +9,7 @@ This repository documents what we have and where problems are and here
 discussions can take place to see how we can evolve the data model into
 something better suited for the future of OSM.
 
+## History
 
 At the [State of the Map](https://2018.stateofthemap.org/) conference there
 was a talk ["Modding the OSM Data
@@ -24,12 +25,20 @@ At the FOSSGIS2018 we had a discussion on some of this already. A video [is
 available](https://media.ccc.de/v/2018-5412-evolution_des_openstreetmap-datenmodells)
 (in German).
 
-See also the [wiki pages about
-Areas](https://wiki.openstreetmap.org/wiki/Area/The_Future_of_Areas).
+In spring 2022 the
+[EWG](https://wiki.osmfoundation.org/wiki/Engineering_Working_Group)
+[commissioned a
+study](https://blog.openstreetmap.org/2022/06/02/announcement-data-model-study/)
+about the state of affairs and possible next steps. The results are going to be
+presented at [SotM 2022](https://2022.stateofthemap.org/sessions/W3AGY8/).
 
 ## Tools
 
 To find the best new data model we need statistics. And we need tools to
 convert from one format to another to analyze them. Some tools are available
-from https://github.com/osmcode/osm-data-model-tools.
+from https://github.com/osmcode/osmium-surplus.
+
+## See also
+
+* [Wiki pages about Areas](https://wiki.openstreetmap.org/wiki/Area/The_Future_of_Areas).
 

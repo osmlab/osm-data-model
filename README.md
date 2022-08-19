@@ -29,8 +29,9 @@ In spring 2022 the
 [EWG](https://wiki.osmfoundation.org/wiki/Engineering_Working_Group)
 [commissioned a
 study](https://blog.openstreetmap.org/2022/06/02/announcement-data-model-study/)
-about the state of affairs and possible next steps. The results are going to be
+about the state of affairs and possible next steps. The results were
 presented at [SotM 2022](https://2022.stateofthemap.org/sessions/W3AGY8/).
+[Read the study](https://media.jochentopf.com/media/2022-08-15-study-evolution-of-the-osm-data-model.pdf).
 
 ## Tools
 
